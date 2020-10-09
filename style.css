@@ -84,10 +84,34 @@ button {
     }
     .container {
         grid-template-columns: 1fr;
+        padding: 2px;
     }
+    .main {
+        margin: 20 0 20px 0;  
+    } 
     .main img {
         width: 100%;
         height: auto;
+    }
+    .main .huddle-logo {
+        width: 30%;
+        height: auto;
+    }
+    .content {
+        align-content: space-between;
+
+    }
+    .content-heading {
+        padding-top: 20px;
+    }
+    button {
+        background-color: white;
+        padding: auto;
+        width: 60%;
+        margin: 10px auto 50px auto;
+    }
+    .logos {
+        justify-content: center;
     }
 
 }
