@@ -48,7 +48,7 @@ div .container {
 }
 h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 40px;
     margin-bottom: 30px;
 }
@@ -89,22 +89,28 @@ button {
         height: auto;
     }
     .main .huddle-logo {
-        width: 30%;
+        width: 40%;
         height: auto;
     }
-    .content-heading {
+    .content {
+        margin: 0 auto;
+    }
+    .content .content-heading {
         padding-top: 20px;
+        justify-self: center;
+        text-align: center
+    }
+    .content-heading h2 {
         justify-content: center;
     }
     button {
         background-color: white;
         padding: auto;
         width: 60%;
-        margin: 10px auto 50px 60px;
+        margin: 10px auto 50px auto;
     }
     .logos {
         justify-content: center;
     }
-
 }
 
